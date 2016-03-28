@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         configureImageButton1();
         configureImageButton2();
         configureImageButton3();
-        configureImageButton4();
     }
 
     /*all store button, imageButton1*/
@@ -47,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     /*favorite button, imageButton3*/
     private void configureImageButton3() {
-        ImageButton btn = (ImageButton) findViewById(R.id.imageButton3);
+        ImageButton btn = (ImageButton) findViewById(R.id.imageButton2);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,17 +56,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    /*Category button, imageButton4*/
-    private void configureImageButton4() {
-        ImageButton btn = (ImageButton) findViewById(R.id.imageButton4);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CategoryExpandActivity.class);
-                startActivity(intent);
-            }
-        });
-    }
+
 
 
 

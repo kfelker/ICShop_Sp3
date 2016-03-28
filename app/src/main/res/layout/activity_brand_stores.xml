@@ -30,7 +30,7 @@
         android:layout_alignParentStart="true"
         android:background="#ef4035"
         android:divider="#FFFFFF"
-        android:dividerHeight="5dp" />
+        android:dividerHeight="10dp" />
 
     <!--TextView
         android:id="@+id/empty"

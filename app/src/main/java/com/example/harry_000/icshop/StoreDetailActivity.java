@@ -55,11 +55,6 @@ public class StoreDetailActivity extends AppCompatActivity{
         tab2.setContent(R.id.Categories);
         tabHost.addTab(tab2);
 
-        db = new MyDatabase(this);
-        strBrands = db.getStrBrandsForStore(id);
-        TextView brands = (TextView) this.findViewById(R.id.textViewBrands);
-        brands.setText(strBrands);
-
         db.close();
 
         db = new MyDatabase(this);
