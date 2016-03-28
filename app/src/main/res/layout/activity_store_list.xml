@@ -22,15 +22,17 @@
         android:id="@android:id/list"
         tools:listitem="@android:layout/simple_list_item_1"
         android:clickable="true"
-        android:background="#ff1a1a"
+        android:background="#EF4035"
         android:drawSelectorOnTop="false"
         android:divider="#FFFFFF"
-        android:dividerHeight="5dp"
+        android:dividerHeight="10dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
-        />
+        android:fastScrollAlwaysVisible="false"
+        android:smoothScrollbar="true"
+        android:cacheColorHint="#faf9f9" />
 
 
 

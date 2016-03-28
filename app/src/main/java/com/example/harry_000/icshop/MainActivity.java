@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        configureImageButton();
         configureImageButton1();
         configureImageButton2();
         configureImageButton3();
+        configureImageButton4();
     }
 
     /*all store button, imageButton1*/
-    private void configureImageButton() {
+    private void configureImageButton1() {
         ImageButton btn = (ImageButton) findViewById(R.id.imageButton1);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*all brand button, imageButton2*/
-    private void configureImageButton1() {
+    private void configureImageButton2() {
         ImageButton btn = (ImageButton) findViewById(R.id.imageButton2);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*favorite button, imageButton3*/
-    private void configureImageButton2() {
+    private void configureImageButton3() {
         ImageButton btn = (ImageButton) findViewById(R.id.imageButton3);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*Category button, imageButton4*/
-    private void configureImageButton3() {
+    private void configureImageButton4() {
         ImageButton btn = (ImageButton) findViewById(R.id.imageButton4);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

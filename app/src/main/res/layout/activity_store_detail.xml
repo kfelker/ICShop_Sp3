@@ -14,51 +14,41 @@
         <LinearLayout android:id="@+id/LinearLayout01"
             android:orientation="vertical" android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:scrollIndicators="right">
+            android:scrollIndicators="right"
+            android:weightSum="1">
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp">
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.17"
+                android:background="#EF4035">
 
                 <!-- store picture,android:scaleType="fitXY"-->
-                <ImageView
-                    android:id="@+id/imageview_store"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:maxHeight="150dp"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/bg3"
-                    android:background="#FF99FF"
-                    />
-
-                <!-- store name,@+id/textViewStore,android:layout_marginTop="5dp"-->
                 <TextView
                     android:id="@+id/textViewStore"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Medium Text"
-                    android:background="@android:color/darker_gray"
-                    android:textSize="25sp"
+                    android:text="Store Details"
+                    android:textSize="35sp"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="15dp"
                     android:layout_gravity="bottom"
                     android:ellipsize="end"
                     android:maxLines="2"
-                    android:textColor="@android:color/black"
+                    android:textColor="#fdfcfc"
                     android:shadowColor="#FFFFFF"
                     android:gravity="center"
                     android:shadowDx="1"
-                    android:textStyle="bold"
+                    android:textStyle="normal"
                     android:shadowDy="2"
                     android:shadowRadius="2"
                     android:alpha="0.8"
-                    />
+                    android:typeface="sans" />
+
+                <!-- store name,@+id/textViewStore,android:layout_marginTop="5dp"-->
 
 
             </FrameLayout>
@@ -182,32 +172,20 @@
 
             </RelativeLayout>
 
-            <TabWidget android:id="@android:id/tabs"
+            <!--<TabWidget android:id="@android:id/tabs"
                 android:layout_height="wrap_content" android:layout_width="fill_parent"
                 android:layout_weight="0.9" android:textSize="10sp"
-
                 android:showDividers="middle"
-                android:nestedScrollingEnabled="True"
-                ></TabWidget>
+                >
 
+            </TabWidget>
+-->
             <FrameLayout android:id="@android:id/tabcontent"
                 android:layout_height="fill_parent" android:layout_width="fill_parent">
                 <LinearLayout android:layout_width="fill_parent"
                     android:layout_height="wrap_content" android:id="@+id/Brands" android:tag="Brands">
 
                     <!-- tab 1 content goes here -->
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Medium Text"
-                        android:id="@+id/textViewBrands"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:textSize="13sp"
-                        android:gravity="left"
-                        android:padding="10dp"
-                        />
 
                 </LinearLayout>
                 <LinearLayout android:layout_width="fill_parent"

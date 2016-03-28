@@ -11,10 +11,9 @@
        //mainActivity
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="Home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -40,19 +39,13 @@
         </activity>
 
 
-
+        //store details
         <activity
             android:name=".StoreDetailActivity"
             android:label="@string/title_activity_store_detail"
            >
         </activity>
 
-        <!--
-        activity
-            android:name=".StoresListAdapter"
-            android:label="@string/title_activity_stores_list_adapter" >
-        </activity
-        -->
         <activity
             android:name=".CategoryExpandActivity"
             android:label="@string/title_activity_category_expand" >
@@ -62,35 +55,17 @@
                 android:value="com.example.harry_000.icshop.MainActivity" />
         </activity>
 
-        <!--
-        activity
-            android:name=".CategoryExpandAdapter"
-            android:label="@string/title_activity_category_expand_adapter" >
-        </activity
-        -->
-
-
-        <!--
-        activity
-            android:name=".SubCategoryListAdapter"
-            android:label="@string/title_activity_sub_category_list_adapter" >
-        </activity
-        -->
-
-        <!--ractivity
-            android:name=".MainCategoryAdapter"
-            android:label="@string/title_activity_main_category_adapter" >
-        </activity-->
+        //store list
         <activity
             android:name=".StoreListActivity"
             android:label="@string/title_activity_store_list">
 
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.harry_000.icshop.MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.harry_000.icshop.MainActivity" />
 
 
-
+        //search
         </activity>
 
         <activity android:name=".searchActivity"
@@ -113,3 +88,24 @@
     </application>
 
 </manifest>
+
+
+    <!--
+    activity
+        android:name=".CategoryExpandAdapter"
+        android:label="@string/title_activity_category_expand_adapter" >
+    </activity
+    -->
+
+
+        <!--
+        activity
+            android:name=".SubCategoryListAdapter"
+            android:label="@string/title_activity_sub_category_list_adapter" >
+        </activity
+        -->
+
+        <!--ractivity
+            android:name=".MainCategoryAdapter"
+            android:label="@string/title_activity_main_category_adapter" >
+        </activity-->

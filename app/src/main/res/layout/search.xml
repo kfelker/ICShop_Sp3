@@ -65,7 +65,7 @@
         android:layout_above="@+id/radiogroup_search"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="buttonClick"/>
+        />
 
     <ImageView
         android:id="@+id/listIcon"
@@ -80,14 +80,15 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="3dp"
         android:id="@android:id/list"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:clickable="true"
+        android:background="#EF4035"
+        android:drawSelectorOnTop="false"
+        android:divider="#FFFFFF"
+        android:dividerHeight="10dp"
         android:layout_below="@+id/radiogroup_search"
         android:layout_alignLeft="@+id/radiogroup_search"
         android:layout_alignStart="@+id/radiogroup_search"
-        tools:listitem="@android:layout/simple_list_item_1"
-        android:clickable="true"
-        android:background="#ff1a1a"
-        android:drawSelectorOnTop="false"
-        android:divider="#FFFFFF"
-        android:dividerHeight="5dp"/>
+        android:layout_marginTop="34dp" />
 
 </RelativeLayout>
