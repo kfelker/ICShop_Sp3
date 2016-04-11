@@ -11,8 +11,12 @@
 
     <ExpandableListView
         android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_width="370dp"
+        android:layout_height="468dp"
+        android:layout_gravity="bottom"
+        android:background="#EF4035"
+        android:divider="#ffffff"
+        android:dividerHeight="10dp">
     </ExpandableListView>
 
 </LinearLayout>

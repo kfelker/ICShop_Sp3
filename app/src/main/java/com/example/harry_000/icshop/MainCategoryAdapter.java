@@ -15,6 +15,10 @@ import android.graphics.Color;
 import android.view.Gravity;
 import android.widget.ArrayAdapter;
 
+
+/**
+ * Created by Felker on 10/11/2015.
+ */
 public class MainCategoryAdapter extends ArrayAdapter<MainRetailCategory> {
     private Context context;
     private List<MainRetailCategory> mainCatList;

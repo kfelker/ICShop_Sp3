@@ -8,6 +8,11 @@
     tools:context="com.example.harry_000.icshop.searchActivity"
     >
     <!--android:_alignParentTop="True"-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></LinearLayout>
+
     <View
         android:id="@+id/view1"
         android:layout_width="match_parent"
@@ -19,9 +24,9 @@
         android:lines="1"
         android:gravity="center_vertical"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:id="@+id/textView"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="7dp"
         android:layout_toLeftOf="@+id/button"
         android:layout_toRightOf="@+id/listIcon"
         android:layout_toEndOf="@+id/listIcon"
@@ -29,7 +34,9 @@
         android:editable="true"
         android:enabled="true"
         android:focusable="true"
-        android:focusableInTouchMode="true" />
+        android:focusableInTouchMode="true"
+        android:background="#bcbcbc"
+        android:padding="5dp" />
 
 
     <RadioGroup
@@ -65,7 +72,8 @@
         android:layout_above="@+id/radiogroup_search"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        />
+        android:onClick="buttonClick"
+        android:layout_marginTop="7dp" />
 
     <ImageView
         android:id="@+id/listIcon"
@@ -80,15 +88,23 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="3dp"
         android:id="@android:id/list"
+        android:layout_below="@+id/radiogroup_search"
+        android:layout_alignLeft="@+id/radiogroup_search"
+        android:layout_alignStart="@+id/radiogroup_search"
         tools:listitem="@android:layout/simple_list_item_1"
         android:clickable="true"
         android:background="#EF4035"
         android:drawSelectorOnTop="false"
         android:divider="#FFFFFF"
         android:dividerHeight="10dp"
-        android:layout_below="@+id/radiogroup_search"
-        android:layout_alignLeft="@+id/radiogroup_search"
-        android:layout_alignStart="@+id/radiogroup_search"
-        android:layout_marginTop="34dp" />
+        android:fastScrollAlwaysVisible="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@android:id/list"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
 
 </RelativeLayout>

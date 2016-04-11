@@ -2,18 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-b18a44fcd2288a1d56a642608a2bf3647b3819f0.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-02ed10ef09d0d65af67095a0803dea16d75621c8.jar" />
     </item>
     <item
-        jar="/Users/Ryan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-e5e2ec839b4f0119d860cad5ff5d499066dcd1c3.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-35c45d55a78e229383bd1d14f0092a3695292a74.jar" />
+    </item>
+    <item
+        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-91be6e91b047b730f1f52bf2286057c57bcdd853.jar" />
+    </item>
+    <item
+        jar="/Users/Ryan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-d0773535e843590f51a485d3866b7fcb4adf3e25.jar" />
     </item>
     <item
         jar="/Users/Ryan/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
@@ -23,18 +37,18 @@
         <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1-44eee3884cbb09bde9844b107ae47516a13ce0c4.jar" />
     </item>
     <item
-        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-6cd0e8f5f26a58a62e90bb30943f114edf563d55.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-0e60c572e80fe0a679f5043c68e088d49108d043.jar" />
     </item>
     <item
-        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jar="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/classes-70628845f64e47c83f10add2f3c05c04555fe0c3.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Ryan/AndroidStudioProjects/ICShop_Sp3/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-02571f8ef2414c09e5dade33b0240b8cefd254ca.jar" />
     </item>
 
 </items>
