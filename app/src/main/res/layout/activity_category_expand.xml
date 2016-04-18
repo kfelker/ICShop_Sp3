@@ -9,14 +9,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+
     <ExpandableListView
         android:id="@+id/listView"
         android:layout_width="370dp"
         android:layout_height="468dp"
         android:layout_gravity="bottom"
-        android:background="#EF4035"
+        android:background="#808080"
         android:divider="#ffffff"
         android:dividerHeight="10dp">
     </ExpandableListView>
 
 </LinearLayout>
+

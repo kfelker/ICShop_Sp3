@@ -11,7 +11,9 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></LinearLayout>
+        android:layout_height="match_parent">
+
+    </LinearLayout>
 
     <View
         android:id="@+id/view1"
@@ -72,7 +74,6 @@
         android:layout_above="@+id/radiogroup_search"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="buttonClick"
         android:layout_marginTop="7dp" />
 
     <ImageView
@@ -98,13 +99,5 @@
         android:divider="#FFFFFF"
         android:dividerHeight="10dp"
         android:fastScrollAlwaysVisible="false" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_alignTop="@android:id/list"
-        android:layout_toLeftOf="@+id/button"
-        android:layout_toStartOf="@+id/button" />
 
 </RelativeLayout>
