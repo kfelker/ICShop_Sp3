@@ -21,7 +21,7 @@
         android:id="@android:id/list"
         tools:listitem="@android:layout/simple_list_item_1"
         android:clickable="true"
-        android:background="#EF4035"
+        android:background="#ed4a40"
         android:drawSelectorOnTop="false"
         android:divider="#FFFFFF"
         android:dividerHeight="10dp"

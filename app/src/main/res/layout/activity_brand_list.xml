@@ -26,7 +26,7 @@
 
         tools:listitem="@android:layout/simple_list_item_1"
         android:clickable="true"
-        android:background="#808080"
+        android:background="#FFED4A40"
         android:drawSelectorOnTop="false"
         android:divider="#FFFFFF"
         android:dividerHeight="10dp"

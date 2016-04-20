@@ -27,7 +27,7 @@
     android:layout_below="@+id/headertext"
     android:divider="#ffffff"
     android:dividerHeight="10dp"
-    android:background="#EF4035" />
+    android:background="#FFED4A40" />
 
 <!--TextView
     android:id="@+id/empty"

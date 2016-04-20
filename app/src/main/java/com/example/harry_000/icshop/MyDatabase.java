@@ -77,6 +77,10 @@ public class MyDatabase extends SQLiteAssetHelper {
         Cursor c = qb.query(db, sqlSelect, null, null,
                 null, null, null);
 
+        String sqlState = "SELECT Business.BusinessName,"
+        + " FROM Business "
+                + " ORDER BY Business.BusinessName";
+
         c.moveToFirst();
         while (!c.isAfterLast()) {
             Brand brand = cursorToBrand(c);

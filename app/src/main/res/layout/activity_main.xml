@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:background="@drawable/downtownshopping"
     android:weightSum="1"
-    android:baselineAligned="false">
+    android:baselineAligned="false"
+    android:padding="10dp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -14,7 +15,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_weight="0.99">
+        android:layout_weight="0.99"
+        android:alpha=".95">
 
         <TextView
             android:layout_width="149dp"
@@ -62,8 +64,8 @@
         android:layout_height="120dp"
         android:layout_width="fill_parent"
         android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:alpha=".85">
+        android:paddingTop="15dp"
+        android:alpha=".80">
 
         <RelativeLayout
             android:layout_height="match_parent"
@@ -119,7 +121,7 @@
         android:layout_height="110dp"
         android:layout_width="fill_parent"
         android:orientation="horizontal"
-        android:alpha=".85">
+        android:alpha=".80">
 
         <RelativeLayout
             android:layout_height="220dp"

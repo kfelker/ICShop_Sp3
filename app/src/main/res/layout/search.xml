@@ -94,7 +94,7 @@
         android:layout_alignStart="@+id/radiogroup_search"
         tools:listitem="@android:layout/simple_list_item_1"
         android:clickable="true"
-        android:background="#EF4035"
+        android:background="#FFED4A40"
         android:drawSelectorOnTop="false"
         android:divider="#FFFFFF"
         android:dividerHeight="10dp"
