@@ -75,11 +75,9 @@ public class MyDatabase extends SQLiteAssetHelper {
         String sqlTables = "Brand";
         qb.setTables(sqlTables);
         Cursor c = qb.query(db, sqlSelect, null, null,
-                null, null, null);
+                null, null, "Name");
 
-        String sqlState = "SELECT Business.BusinessName,"
-        + " FROM Business "
-                + " ORDER BY Business.BusinessName";
+
 
         c.moveToFirst();
         while (!c.isAfterLast()) {
