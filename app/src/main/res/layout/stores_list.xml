@@ -5,25 +5,5 @@
     android:orientation="vertical"
     android:padding="6dip">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Store: "
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-
-    <TextView
-        android:id="@+id/Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_toRightOf="@+id/textView1"
-        android:layout_toEndOf="@+id/textView1" />
-
-
 
 </RelativeLayout>

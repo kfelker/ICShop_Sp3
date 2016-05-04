@@ -155,30 +155,7 @@
             <RelativeLayout
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
-                android:layout_weight="1"
-                >
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:id="@+id/image_hricon"
-                    android:src="@drawable/hoursicon"
-                    android:layout_margin="2.5dp"
-                    />
-
-                <TextView
-                    android:id="@+id/textViewHours"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Medium Text"
-                    android:textSize="13sp"
-                    android:gravity="center"
-                    android:paddingLeft="5dp"
-                    android:layout_toRightOf="@+id/image_hricon"
-                    android:layout_margin="10dp"
-
-                    />
+                android:layout_weight="4.04">
 
             </RelativeLayout>
 
@@ -187,8 +164,7 @@
                 android:layout_weight="0.9" android:textSize="10sp"
 
                 android:showDividers="middle"
-                android:nestedScrollingEnabled="True"
-                ></TabWidget>
+                > </TabWidget>
 
             <FrameLayout android:id="@android:id/tabcontent"
                 android:layout_height="fill_parent" android:layout_width="fill_parent">
